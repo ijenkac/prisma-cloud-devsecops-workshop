@@ -19,6 +19,8 @@ resource "aws_instance" "web" {
   instance_type = "t3.micro"
 
   tags = {
-    Name = "HelloWorld"
+    Name      = "HelloWorld"
+    yor_name  = "web"
+    yor_trace = "cca64eef-f036-420a-bee6-619a98c15b79"
   }
 }
